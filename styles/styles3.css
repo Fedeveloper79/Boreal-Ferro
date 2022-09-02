@@ -14,14 +14,35 @@ body {
 
 /* inicio de la cabecera, incluye links */
 header {
-  display: flex;
-  flex-direction:row
- }
 
- header ul {
+  display: flex;
+  background-image: linear-gradient(to left, rgb(132, 189, 145), rgb(7, 102, 47));
+}
+
+.cabecera {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+
+}
+
+header ul {
   display: flex;
   list-style: none;
- }
+  background-image: linear-gradient(to left, rgb(81, 47, 231), rgb(10, 1, 48));
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+
+}
+
+.logo img {
+  display: flex;
+  width: 120px;
+  height: 100px;
+}
 
 
 
