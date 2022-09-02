@@ -25,17 +25,30 @@ header {
   align-items: center;
   justify-content:space-between;
   width: 100%;
+  margin: 10px;
+  font-size: 16px;
 
 }
+
 
 header ul {
   display: flex;
   list-style: none;
-  background-image: linear-gradient(to left, rgb(81, 47, 231), rgb(10, 1, 48));
+  background-image: linear-gradient(to left, rgb(166, 151, 229), rgb(78, 76, 88));
   border-radius: 10px;
-  width: 300px;
+  width: 500px;
+  margin: 5px;
   padding: 10px;
+  justify-content: space-evenly;
 
+}
+
+ li{
+  color: aliceblue;
+  background-color: rgb(165, 169, 173);
+  border-radius: 2px;
+  margin: 2px;
+  padding: 2px;
 }
 
 .logo img {
