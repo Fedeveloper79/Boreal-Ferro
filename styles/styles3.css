@@ -232,15 +232,14 @@ h2 {
 }
 
 .redsos {
- 
   padding: 15px;
   height: 100px;
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   border-radius: 5px;
   flex: 1;
-  
+
 }
 
 .logor {
@@ -252,42 +251,36 @@ h2 {
   display: flex;
   list-style: none;
   background-color: none;
- 
-
 }
 
-.redsos span img{
+.redsos span img {
   width: 15px;
   height: 15px;
-  
-
 }
 
 .infocon {
   display: flex;
   flex-direction: column;
-
   padding: 15px;
   height: 100px;
   border-radius: 5px;
   flex: 1;
- 
+
 }
 
 .donde {
- align-items: stretch;
-
- padding: 15px;
- height: 100px;
- border-radius: 5px;
-text-align: center;
-flex: 1;
+  align-items: stretch;
+  padding: 15px;
+  height: 100px;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
 }
 
 .donde img {
   width: 150px;
   height: 60px;
- 
+
 }
 
 
@@ -300,53 +293,53 @@ flex: 1;
 
 
 
-  /* fin de seccion*/
+/* fin de seccion*/
 
-  /* css para page de clientes */
+/* css para page de clientes */
 
-  #logosclientes {
-    background-image: url(../imagenes1/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
-    height: 600px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-  }
+#logosclientes {
+  background-image: url(../imagenes1/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
 
-  .logosclientes_parrafo {
-    display: flex;
-    position: absolute;
-    top: 220px;
-    font-size: 40px;
+.logosclientes_parrafo {
+  display: flex;
+  position: absolute;
+  top: 220px;
+  font-size: 40px;
 
-  }
+}
 
-  /* fin de seccion */
+/* fin de seccion */
 
-  .formulariocontacto {
-    background-image: url(../imagenes1/hands-engineer-working-blueprint-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
-    background-size: 1600px;
-    height: 800px;
-  }
+.formulariocontacto {
+  background-image: url(../imagenes1/hands-engineer-working-blueprint-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
+  background-size: 1600px;
+  height: 800px;
+}
 
-  .fc1 {
-    display: flex;
-    display: block;
-  }
+.fc1 {
+  display: flex;
+  display: block;
+}
 
-  legend {
-    display: flex;
-    display: block;
-  }
+legend {
+  display: flex;
+  display: block;
+}
 
-  input {
-    display: flex;
-    display: block;
+input {
+  display: flex;
+  display: block;
 
-  }
+}
 
-  label {
-    display: flex;
-    display: block;
-    text-align: start;
-  }
+label {
+  display: flex;
+  display: block;
+  text-align: start;
+}
