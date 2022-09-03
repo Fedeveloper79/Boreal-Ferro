@@ -225,10 +225,22 @@ h2 {
 #redessociales {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to left, rgb(132, 189, 145), rgb(7, 102, 47));
+  background-image: linear-gradient(to right, rgb(132, 189, 145), rgb(7, 102, 47));
   justify-content: space-around;
   padding: 15px;
   align-items: center;
+}
+
+.redsos {
+ 
+  padding: 15px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  border-radius: 5px;
+  flex: 1;
+  
 }
 
 .logor {
@@ -240,17 +252,42 @@ h2 {
   display: flex;
   list-style: none;
   background-color: none;
+ 
+
 }
 
 .redsos span img{
   width: 15px;
   height: 15px;
+  
 
 }
 
+.infocon {
+  display: flex;
+  flex-direction: column;
+
+  padding: 15px;
+  height: 100px;
+  border-radius: 5px;
+  flex: 1;
+ 
+}
+
+.donde {
+ align-items: stretch;
+
+ padding: 15px;
+ height: 100px;
+ border-radius: 5px;
+text-align: center;
+flex: 1;
+}
+
 .donde img {
-  width: 100px;
+  width: 150px;
   height: 60px;
+ 
 }
 
 
