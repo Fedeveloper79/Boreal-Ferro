@@ -14,22 +14,26 @@ body {
 
 /* inicio de la cabecera, incluye links */
 header {
-
   display: flex;
-  background-image: linear-gradient(to left, rgb(132, 189, 145), rgb(7, 102, 47));
+  background-image: linear-gradient(to right, rgb(132, 189, 145), rgb(7, 102, 47));
 }
 
 .cabecera {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 100%;
   margin: 10px;
   font-size: 16px;
 
 }
 
+.cabecera h1,
+h3 {
+  color: rgb(3, 83, 17);
+  font-size: 26px;
+}
 
 header ul {
   display: flex;
@@ -43,7 +47,7 @@ header ul {
 
 }
 
- li{
+li {
   color: aliceblue;
   background-color: rgb(165, 169, 173);
   border-radius: 2px;
@@ -57,12 +61,10 @@ header ul {
   height: 100px;
 }
 
-
-
-
-
-
 /* fin de la cabecera */
+
+
+
 
 /* espacio para paginas de interes */
 
@@ -221,115 +223,93 @@ h2 {
 /* footer, seccion con redes sociales e info basica de contacto*/
 
 #redessociales {
-
   display: flex;
-  display: inline-block;
+  justify-content: center;
   background-image: linear-gradient(to left, rgb(132, 189, 145), rgb(7, 102, 47));
-  height: 110px;
-
-
-
+  justify-content: space-around;
+  padding: 15px;
+  align-items: center;
 }
 
-.redsos {
+.logor {
+  width: 20px;
+  height: 20px;
+}
+
+.redsos span {
+  display: flex;
   list-style: none;
-  display: inline-block;
-  width: 430px;
-  height: 100px;
-  float: left;
-
-  top: 10px;
-
-
-
+  background-color: none;
 }
 
-.redsos li img {
-  width: 25px;
-  height: 25px;
-  margin: 3px;
-  border-radius: 4px;
-  margin-left: 20px;
-}
+.redsos span img{
+  width: 15px;
+  height: 15px;
 
-
-
-.infocon {
-  left: 30px;
-  top: 10px;
-  position: relative;
-  display: inline-block;
-  width: 430px;
-  height: 100px;
-  float: left;
-
-
-
-}
-
-.donde {
-
-  width: 430px;
-  height: 100px;
-  position: relative;
-  display: inline-block;
-  float: left;
-  left: 150px;
-  top: 10px;
 }
 
 .donde img {
-  width: 200px;
-  height: 70px;
+  width: 100px;
+  height: 60px;
 }
 
-/* fin de seccion*/
 
-/* css para page de clientes */
 
-#logosclientes {
-  background-image: url(../imagenes1/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
-  height: 600px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.logosclientes_parrafo {
-  display: flex;
-  position: absolute;
-  top: 220px;
-  font-size: 40px;
 
-}
 
-/* fin de seccion */
 
-.formulariocontacto {
-  background-image: url(../imagenes1/hands-engineer-working-blueprint-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
-  background-size: 1600px;
-  height: 800px;
-}
 
-.fc1 {
-  display: flex;
-  display: block;
-}
 
-legend {
-  display: flex;
-  display: block;
-}
 
-input {
-  display: flex;
-  display: block;
 
-}
+  /* fin de seccion*/
 
-label {
-  display: flex;
-  display: block;
-  text-align: start;
-}
+  /* css para page de clientes */
+
+  #logosclientes {
+    background-image: url(../imagenes1/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .logosclientes_parrafo {
+    display: flex;
+    position: absolute;
+    top: 220px;
+    font-size: 40px;
+
+  }
+
+  /* fin de seccion */
+
+  .formulariocontacto {
+    background-image: url(../imagenes1/hands-engineer-working-blueprint-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
+    background-size: 1600px;
+    height: 800px;
+  }
+
+  .fc1 {
+    display: flex;
+    display: block;
+  }
+
+  legend {
+    display: flex;
+    display: block;
+  }
+
+  input {
+    display: flex;
+    display: block;
+
+  }
+
+  label {
+    display: flex;
+    display: block;
+    text-align: start;
+  }
