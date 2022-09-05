@@ -174,7 +174,10 @@ background-size: 1000px;
 background-size: contain;
 justify-content: center;
 align-items: center;
+
 }
+
+
 
 #redessociales {
   display: flex;
