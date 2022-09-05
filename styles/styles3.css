@@ -198,7 +198,6 @@ h2 {
   justify-content: space-between;
   border-radius: 5px;
   flex: 1;
-
 }
 
 .logor {
@@ -224,7 +223,6 @@ h2 {
   height: 100px;
   border-radius: 5px;
   flex: 1;
-
 }
 
 .donde {
@@ -233,13 +231,11 @@ h2 {
   height: 100px;
   border-radius: 5px;
   text-align: center;
-
 }
 
 .donde img {
   width: 150px;
   height: 60px;
-
 }
 
 /* finaliza la seccion Footer"
@@ -269,7 +265,7 @@ header {
   grid-area: obrasfinalizadas;
 }
 
-.ofin{
+.ofin {
   grid-area: oee;
   background-image: linear-gradient(to left, rgb(144, 231, 188), rgb(150, 101, 101));
   background-size: contain;
@@ -288,16 +284,18 @@ header {
   grid-template-rows: 1fr 2fr 2fr;
 }
 
-.obe1{
-  grid-area:obrae1 ;
+.obe1 {
+  grid-area: obrae1;
 }
 
-.obe2{
-  grid-area:obrae2 ;
+.obe2 {
+  grid-area: obrae2;
 }
-.obe3{
-  grid-area:obrae3 ;
+
+.obe3 {
+  grid-area: obrae3;
 }
-.obe4{
-  grid-area:obrae4 ;
+
+.obe4 {
+  grid-area: obrae4;
 }
