@@ -159,7 +159,7 @@ h2 {
 
 #obrasenejecucion {
   background-color: rgb(204, 221, 204);
-  background-size: 1400px;
+
   display: grid;
   grid-template-areas:
     "oee oee"
@@ -247,10 +247,9 @@ h2 {
   grid-template-areas:
     "header"
     "obrasenejecucion"
-    "obrasfinalizadas"
-    "footer";
+       "footer";
 
-  grid-template-rows: 100px 3fr 3fr 100px;
+  grid-template-rows: 100px 800px 100px;
 }
 
 header {
@@ -261,41 +260,3 @@ header {
   grid-area: obrasenejecucion;
 }
 
-#obrasfinalizadas {
-  grid-area: obrasfinalizadas;
-}
-
-.ofin {
-  grid-area: oee;
-  background-image: linear-gradient(to left, rgb(144, 231, 188), rgb(150, 101, 101));
-  background-size: contain;
-  justify-content: center;
-  align-items: center;
-}
-
-#obrasfinalizadas {
-  background-color: bisque;
-  display: grid;
-  grid-template-areas:
-    "oee oee"
-    "obrae1 obrae2"
-    "obrae3 obrae4";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 2fr 2fr;
-}
-
-.obe1 {
-  grid-area: obrae1;
-}
-
-.obe2 {
-  grid-area: obrae2;
-}
-
-.obe3 {
-  grid-area: obrae3;
-}
-
-.obe4 {
-  grid-area: obrae4;
-}
