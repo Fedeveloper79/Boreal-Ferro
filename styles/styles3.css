@@ -159,14 +159,13 @@ h2 {
 
 #obrasenejecucion {
   background-color: rgb(204, 221, 204);
-
   display: grid;
   grid-template-areas:
     "oee oee"
     "obra1 obra2"
     "obra3 obra4";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-rows: 100px 2fr 2fr;
 }
 
 #obrasenejecucion h2 {
@@ -247,7 +246,7 @@ h2 {
   grid-template-areas:
     "header"
     "obrasenejecucion"
-       "footer";
+    "footer";
 
   grid-template-rows: 100px 800px 100px;
 }
@@ -259,4 +258,5 @@ header {
 #obrasenejecucion {
   grid-area: obrasenejecucion;
 }
+
 
