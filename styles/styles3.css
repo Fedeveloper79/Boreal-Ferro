@@ -4,85 +4,75 @@
   box-sizing: border-box;
 }
 
-
-body {
-  background-color: rgb(201, 243, 229);
-  display: flex;
-  flex-direction: column;
-  height: 1600px;
+/* grid*/
+.grid {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "fotodeco"
+    "obrasenejecucion"
+    "main"
+    "redsos"
+  ;
+  grid-template-rows: 100px 5fr 3fr 150px 100px;
 }
 
-/* inicio de la cabecera, incluye links */
-.cabecera {
-  background-image: linear-gradient(to right, rgb(165, 235, 183), rgb(3, 77, 34));
-  height: 100px;
+header {
+  grid-area: header;
 }
-
-
-.cabecera_tit {
-  font-size: 45px;
-  position: absolute;
-  display: inline-block;
-  margin: 27px;
-  padding: 0px;
-  top: -10px;
-  color: blue;
-
-}
-
-.cabecera_tit_subt {
-  position: relative;
-  font-size: 25px;
-  display: inline-block;
-  margin: 27px;
-  top: -15px;
-  color: blue;
-  z-index: 2;
-}
-
-.cabecera_tit_subt_link {
-  position: relative;
-  background-image: linear-gradient(to left, rgb(107, 151, 117), rgb(49, 155, 93));
-  left: 850px;
-  z-index: 1;
-  bottom: 115px;
-  width: 500px;
-  height: 55px;
-  list-style: none;
-  text-align: center;
-  padding: 10px
-}
-
-.cabecera_tit_subt_link li {
-  display: inline-block;
-  color: #2e0505;
-  margin-left: 10px;
-  background-color: #eed5d5;
-  padding: 05px;
-  border-radius: 05px;
-}
-
-/* fin de la cabecera */
-
-/* espacio para paginas de interes */
-
-main {
-  position: relative;
-  background-color: rgb(247, 222, 189);
-  text-align: center;
-  height: 150px;
-
-
-}
-
-/* seccion con info de la empresa e imagen decorativa*/
 
 .fotodeco {
-  position: relative;
+  grid-area: fotodeco;
+}
+
+#obrasenejecucion {
+  display: flex;
+}
+
+header {
+  border: 01px solid;
+  display: flex;
+
+}
+
+img {
+  display: flex;
+  width: 120px;
+  height: 100px;
+
+}
+
+.cabecera {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(109, 243, 176), rgb(23, 88, 37));
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+.nav {
+  display: flex;
+  background-image: linear-gradient(to left, rgb(144, 231, 188), rgb(150, 101, 101));
+  padding: 10px;
+  border: 5px;
+}
+
+/* cierro sector header */
+
+/* empieza seccion detalles de la empresa*/
+
+.fotodeco {
   display: flex;
   flex-direction: row;
   height: 700px;
-  background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/hands-engineer-working-blueprint-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/obrafin2.jpg);
   background-size: 1500px;
   border: none;
 }
@@ -106,8 +96,6 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 20px;
   padding-left: 20px;
-
-
 }
 
 #texto_obras {
@@ -118,7 +106,6 @@ h2 {
   overflow: hidden;
   width: 350px;
 }
-
 
 #servicios {
   display: flex;
@@ -166,170 +153,110 @@ h2 {
   width: 350px;
 }
 
-/* fin de seccion*/
+/* finaliza sector detalle empresa*/
 
-/* seccion obras en ejecucion del index */
+/* empieza seccion obras en ejecucion*/
 
 #obrasenejecucion {
-  display: flex;
-  flex-direction: column;
-  display: inline-block;
-  height: 350px;
-  align-items: flex-start;
-
-
+  background-color: rgb(204, 221, 204);
+  display: grid;
+  grid-template-areas:
+    "oee oee"
+    "obra1 obra2"
+    "obra3 obra4";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 2fr 2fr;
 }
 
-#oee {
-  display: flex;
-  display: inline-block;
-  position: relative;
-  text-align: center;
+#obrasenejecucion h2 {
+  grid-area: oee;
+  background-image: linear-gradient(to left, rgb(144, 231, 188), rgb(150, 101, 101));
+  background-size: contain;
   justify-content: center;
-  margin-top: 10px;
-  width: 350px;
-  height: 100px;
-  background-color: rgb(235, 139, 158);
+  align-items: center;
 }
 
-#obrasenejecucion div {
+/* finaliza la seccion obras en ejecucion*/
 
-  display: flex;
-  justify-content: end;
-  flex-direction: unset;
-  height: 400px;
-}
-
-#obrasenejecucion div img {
-  position: relative;
-  display: flex;
-  width: 200px;
-  height: 200px;
-  flex: 1;
-
-}
-
-.obrasee {
-  background-color: rgb(245, 164, 59);
-  text-align: center;
-  padding: 10px;
-
-}
-
-/* fin de seccion*/
-
-/* footer, seccion con redes sociales e info basica de contacto*/
+/* Empieza la seccion Footer*/
 
 #redessociales {
-
   display: flex;
-  display: inline-block;
-  background-image: linear-gradient(to left, rgb(132, 189, 145), rgb(7, 102, 47));
-  height: 110px;
-
-
-
+  justify-content: center;
+  background-image: linear-gradient(to right, rgb(132, 189, 145), rgb(7, 102, 47));
+  justify-content: space-around;
+  padding: 15px;
+  align-items: center;
 }
 
 .redsos {
-  list-style: none;
-  display: inline-block;
-  width: 430px;
+  padding: 15px;
   height: 100px;
-  float: left;
-
-  top: 10px;
-
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  flex: 1;
 }
 
-.redsos li img {
-  width: 25px;
-  height: 25px;
-  margin: 3px;
-  border-radius: 4px;
-  margin-left: 20px;
+.logor {
+  width: 20px;
+  height: 20px;
 }
 
+.redsos span {
+  display: flex;
+  list-style: none;
+  background-color: none;
+}
 
+.redsos span img {
+  width: 15px;
+  height: 15px;
+}
 
 .infocon {
-  left: 30px;
-  top: 10px;
-  position: relative;
-  display: inline-block;
-  width: 430px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
   height: 100px;
-  float: left;
-
-
-
+  border-radius: 5px;
+  flex: 1;
 }
 
 .donde {
-
-  width: 430px;
+  align-items: stretch;
+  padding: 15px;
   height: 100px;
-  position: relative;
-  display: inline-block;
-  float: left;
-  left: 150px;
-  top: 10px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .donde img {
-  width: 200px;
-  height: 70px;
+  width: 150px;
+  height: 60px;
 }
 
-/* fin de seccion*/
+/* finaliza la seccion Footer"
 
-/* css para page de clientes */
+/* comienza la page Obras */
 
-#logosclientes {
-  background-image: url(../imagenes1/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
-  height: 600px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+.gridobras {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "obrasenejecucion"
+    "footer";
+
+  grid-template-rows: 100px 800px 100px;
 }
 
-.logosclientes_parrafo {
-  display: flex;
-  position: absolute;
-  top: 220px;
-  font-size: 40px;
-
+header {
+  grid-area: header;
 }
 
-/* fin de seccion */
-
-.formulariocontacto {
-  background-image: url(../imagenes1/hands-engineer-working-blueprint-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg);
-  background-size: 1600px;
-  height: 800px;
+#obrasenejecucion {
+  grid-area: obrasenejecucion;
 }
 
-.fc1 {
-  display: flex;
-  display: block;
-}
 
-legend {
-  display: flex;
-  display: block;
-}
-
-input {
-  display: flex;
-  display: block;
-
-}
-
-label {
-  display: flex;
-  display: block;
-  text-align: start;
-}
