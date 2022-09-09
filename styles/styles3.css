@@ -9,233 +9,163 @@
   display: grid;
   grid-template-areas:
     "header"
-    "fotodeco"
-    "obrasenejecucion"
+    "cuerpo"
+    "oee "
     "main"
-    "redsos"
+    "footer"
   ;
-  grid-template-rows: 100px 5fr 3fr 150px 100px;
+  grid-template-rows: 100px 600px auto 100px 100px;
 }
 
 header {
   grid-area: header;
 }
 
-.fotodeco {
-  grid-area: fotodeco;
+.cuerpo {
+  grid-area: cuerpo;
 }
 
-#obrasenejecucion {
-  display: flex;
+.oee {
+  grid-area: oee;
 }
 
-header {
-  border: 01px solid;
-  display: flex;
+main {
+  grid-area: main;
+}
 
+footer {
+  grid-area: footer;
+}
+
+/* medias de imagenes unicamente*/
+
+.logo img {
+  width: 130px;
+  height: 100px;
 }
 
 img {
-  display: flex;
-  width: 120px;
-  height: 100px;
-
+  width: 400px;
+  height: 400px;
 }
 
-.cabecera {
+footer img {
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.ubic {
+  width: 150px;
+  height: 60px;
+}
+
+/* fin seccion tamaño imagenes*/
+
+/* zona trabajo header en index*/
+
+header {
   display: flex;
-  width: 100%;
+}
+
+header img {
+  display: flex;
+}
+
+.boreal {
+  display: flex;
   justify-content: space-between;
+  width: 100%;
   align-items: center;
-  background-image: linear-gradient(to right, rgb(109, 243, 176), rgb(23, 88, 37));
+  background-image: linear-gradient(to left, rgb(204, 243, 210), rgb(92, 141, 92));
 }
 
 ul {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
-  width: 500px;
+  width: 600px;
+  background-image: linear-gradient(to right, rgb(13, 190, 43), rgb(112, 145, 117));
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
 }
 
-.nav {
-  display: flex;
-  background-image: linear-gradient(to left, rgb(144, 231, 188), rgb(150, 101, 101));
-  padding: 10px;
-  border: 5px;
+li {
+  background-color: rgb(181, 185, 183);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-/* cierro sector header */
+/* fin zona de trabajo header */
 
-/* empieza seccion detalles de la empresa*/
-
-.fotodeco {
+.cuerpo {
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/paraoee\ \(2\).jpg);
+  background-size: 1700px;
   display: flex;
-  flex-direction: row;
-  height: 700px;
-  background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/obrafin2.jpg);
-  background-size: 1500px;
-  border: none;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  font-size: 20px;
+  padding: 30px;
 }
 
-h2 {
+.titsn {
   display: flex;
-  padding-bottom: 10px;
-}
-
-#obras {
-
-  display: flex;
-  opacity: 100%;
-  align-items: flex-start;
   text-align: center;
-  justify-content: end;
-  flex: 1;
+  padding: 5px;
+  margin: 5px;
+}
+
+.cuer {
+  background-color: rgba(150, 146, 146, 0.363);
+  width: 400px;
+  border-radius: 10px;
+}
+
+
+
+
+
+/* fin de zona cuerpo*/
+
+/* inicio zona obras en ejecucion*/
+
+.oee {
+  display: flex;
   flex-direction: column;
-  color: #0a0a0a;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 20px;
-  padding-left: 20px;
-}
-
-#texto_obras {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-center;
-  text-align: justify;
-  overflow: hidden;
-  width: 350px;
-}
-
-#servicios {
-  display: flex;
-  opacity: 100%;
-  align-items: flex-start;
-  justify-content: end;
-  flex: 1;
-  flex-direction: column;
-  color: #0a0a0a;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 20px;
+  background-color: rgba(195, 212, 198, 0.555);
 
 }
 
-#texto_servicios {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-center;
-  text-align: justify;
-  overflow: hidden;
-  width: 350px;
-
-}
-
-#sobre_nosotros {
-  display: flex;
-  opacity: 100%;
-  align-items: flex-start;
-  justify-content: end;
-  flex: 1;
-  flex-direction: column;
-  color: #0a0a0a;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 20px;
-}
-
-#texto_sobre_nosotros {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-center;
-  text-align: justify;
-  overflow: hidden;
-  width: 350px;
-}
-
-/* finaliza sector detalle empresa*/
-
-/* empieza seccion obras en ejecucion*/
-
-#obrasenejecucion {
-  background-color: rgb(204, 221, 204);
-  display: grid;
-  grid-template-areas:
-    "oee oee"
-    "obra1 obra2"
-    "obra3 obra4";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 2fr 2fr;
-}
-
-#obrasenejecucion h2 {
-  grid-area: oee;
-  background-image: linear-gradient(to left, rgb(144, 231, 188), rgb(150, 101, 101));
-  background-size: contain;
-  justify-content: center;
-  align-items: center;
-}
-
-/* finaliza la seccion obras en ejecucion*/
-
-/* Empieza la seccion Footer*/
-
-#redessociales {
+.tit {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to right, rgb(132, 189, 145), rgb(7, 102, 47));
-  justify-content: space-around;
-  padding: 15px;
-  align-items: center;
+  margin: 20px;
 }
 
-.redsos {
-  padding: 15px;
-  height: 100px;
+.imgoee {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin: 50px;
   justify-content: space-between;
-  border-radius: 5px;
-  flex: 1;
+  background-color: rgb(144, 241, 144);
 }
 
-.logor {
-  width: 20px;
-  height: 20px;
-}
-
-.redsos span {
-  display: flex;
-  list-style: none;
-  background-color: none;
-}
-
-.redsos span img {
-  width: 15px;
-  height: 15px;
-}
-
-.infocon {
+h3 {
   display: flex;
   flex-direction: column;
-  padding: 15px;
-  height: 100px;
-  border-radius: 5px;
-  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  color: beige;
+  background-color: black;
+  border-radius: 10px;
 }
 
-.donde {
-  align-items: stretch;
-  padding: 15px;
-  height: 100px;
-  border-radius: 5px;
-  text-align: center;
-}
+/* fin zona obras en ejecucion*/
 
-.donde img {
-  width: 150px;
-  height: 60px;
-}
+/* inicio zona main*/
 
 /* finaliza la seccion Footer"
 
@@ -243,3 +173,68 @@ h2 {
 
 
 /* comienza la page Obras */
+.publi {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(198, 247, 196);
+}
+
+/* fin zona main*/
+
+/* inicio zona footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(204, 243, 210), rgb(92, 141, 92));
+  padding: 10px;
+}
+
+.redsos {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* comienza seccion paginas*/
+
+/* pagina clientes*/
+
+.logosclientes {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-image: url(../imagenes1/paraoee\ \(2\).jpg);
+  height: 600px;
+
+}
+
+.logcli {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.imgcli {
+  width: 200px;
+  height: 200px;
+  border: solid;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.logosclientes_parrafo {
+  display: flex;
+  background-color: rgb(63, 59, 59);
+  color: white;
+  justify-content: center;
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+/* fin pagina clientes*/
+

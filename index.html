@@ -11,17 +11,19 @@
 
 
 <body class="grid">
+
+
     <!-- El Header es Simple, tiene el logo de la empresa y el menu-->
     <header>
 
         <div class="logo">
-            <img src="./imagenes1/logoboreal2.jpeg" alt="logo de la pagina">
+            <img src="./imagenes1/logoboreal2.jpeg">
         </div>
 
-        <div class="cabecera">
-            <div>
-                <h1 class="cabecera_tit">BOREAL</h1>
-                <h3 class="cabecera_tit_subt"> Obras y Servicios</h3>
+        <div class="boreal">
+            <div class="tys">
+                <h1>BOREAL</h1>
+                <h2 class="oys"> Obras y Servicios</h3>
             </div>
             <div class="nav">
                 <ul>
@@ -37,31 +39,35 @@
     </header>
     <!-- fin de la seccion -->
 
-    <!-- El siguiente main es una seccion amplia de detalles sobre la empresa-->
-    <main class="fotodeco">
 
-        <section id="obras">
+
+    <!-- El siguiente main es una seccion amplia de detalles sobre la empresa-->
+    <main class="cuerpo">
+
+        <div>
             <h2>OBRAS</h2>
-            <P id="texto_obras"> Boreal OyS se caracteriza por la realizacion de obras de pequeña y mediana embergadura,
+            <P class="cuer"> Boreal OyS se caracteriza por la realizacion de obras de pequeña y mediana embergadura,
                 pudiendo realizarlas en forma integral llave en mano, o tambien pudiendo gerenciar proyectos. Somos
                 especialistas en obras civiles y mecanicas para el estado, y el sector de la
                 construcccion</P>
+        </div>
 
-        </section>
-        <section id="servicios">
-            <h2>SERVICIOS</h2>
-            <P id="texto_servicios"> Boreal OyS ofrece una variada a amplia opcion de servicios para la gestion de obras
+
+        <div>
+            <h2 class="titsn">SERVICIOS</h2>
+            <P class="cuer"> Boreal OyS ofrece una variada a amplia opcion de servicios para la gestion de obras
                 para el estado, el sector electrico, el sector petrolero y el sector de la construcccion, dentro de los
                 mismos podemos por ejemplo nombrar, LOGISTICA, COMPRAS, GESTION DE PERMISOS, ETC
             </P>
+        </div>
 
-        </section>
-        <section id="sobre_nosotros">
+
+        <div>
             <h2>SOBRE NOSOTROS</h2>
-            <P id="texto_sobre_nosotros"> Boreal OyS es un emprendimiento que nacio en el 2017 para generar soluciones a
+            <P class="cuer"> Boreal OyS es un emprendimiento que nacio en el 2017 para generar soluciones a
                 los problemas pequeños de las grandes empresas, pensando en gentionar las pequeñas y medianas obras
                 dentro de grandes proyectos, nuestro objetivo es hacer pequeñas cosas que sumen a un gran proyecto.</P>
-        </section>
+        </div>
 
     </main>
     <!-- fin de la seccion -->
@@ -69,33 +75,38 @@
 
     <!-- En esta seccion tenemos las obras que estamos ejecutando actualmente, la misma debe actualizarse constantemente-->
 
-    <section id="obrasenejecucion">
-        <h2 >OBRAS EN EJECUCION</h2>
+    <div class="oee">
 
-            <h3 class="o1"> Remodelacion centro de salud bouquet roldan
-            <img src="./imagenes1/obra1.jpg" >
+        <div class="tit">
+            <h2>OBRAS EN EJECUCION</h2>
+        </div>
+
+        <div class="imgoee">
+
+            <h3> Remodelacion centro de salud bouquet roldan
+                <img src="./imagenes1/obra1.jpg">
             </h3>
 
 
-            <h3 class="o2"> Remodelacion centro de salud PIN
-                <img src="./imagenes1/obra2.jpg" >
+            <h3> Remodelacion centro de salud PIN
+                <img src="./imagenes1/obra2.jpg">
             </h3>
 
 
-            <h3 class="o3"> Construccion base Milicic en Añelo
-                <img src="./imagenes1/obra3.jpg" ">
+            <h3> Construccion base Milicic en Añelo
+                <img src="./imagenes1/obra3.jpg">
             </h3>
 
-            <h3 class="o4"> Construccion base Milicic en Añelo<img src="./imagenes1/ejemplo2.jpg" ></h3>
+            <h3> Construccion base operativa victor <img src="./imagenes1/ejemplo2.jpg"></h3>
+        </div>
 
-  
 
-    </section>
+    </div>
 
     <!-- fin de la seccion -->
 
     <!-- en esta main tenemos vinculos hacia paginas de interes para los visitantes, diarios y paginas para compras-->
-    <main >
+    <main class="publi">
         <iframe src="https://www.infobae.com/" frameborder="0"></iframe>
         <iframe src="https://www.mejorinformado.com/" frameborder="0"></iframe>
         <iframe src="https://www.mercadolibre.com.ar/" frameborder="0"></iframe>
@@ -105,7 +116,7 @@
 
     <!-- en el footer tenemos los links hacia las redes sociales de la empresa, info basica de contacto y ubicacion de las oficinas-->
 
-    <footer id="redessociales">
+    <footer>
 
         <div class="redsos">
             <span> <a href="https://www.instagram.com/" target="_blank"><img src="./imagenes1/logoinsta.png"
@@ -120,7 +131,7 @@
         </div>
 
         <div class="infocon">
-            <p>INFORMACION DE CONTACTO</p>
+            <p><b>INFORMACION DE CONTACTO</b></p>
             <p> Tel : +54 9 299 5362712</p>
             <p> Correo: comercial@borealoys.com.ar</p>
         </div>
@@ -128,7 +139,7 @@
         <div class="donde">
             <p> <a href="https://www.google.com.ar/maps/place/Islas+Malvinas+155,+Q8300ARN+Neuqu%C3%A9n/@-38.9476856,-68.0588255,17z/data=!3m1!4b1!4m5!3m4!1s0x960a332ae634a3b3:0x461e8f538d7c0957!8m2!3d-38.9476898!4d-68.0566368?hl=es-419"
                     target="_blank"><b>DONDE ESTAMOS</b></a></p>
-            <img src="./imagenes1/ubicacion.png" alt="obra 1">
+            <img class="ubic" src="./imagenes1/ubicacion.png" alt="obra 1">
         </div>
     </footer>
     <!-- fin de la seccion -->
