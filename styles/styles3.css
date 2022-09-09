@@ -167,12 +167,15 @@ h3 {
 
 /* inicio zona main*/
 
+<<<<<<< HEAD
 /* finaliza la seccion Footer"
 
 
 
 
 /* comienza la page Obras */
+=======
+>>>>>>> versioncongrid
 .publi {
   display: flex;
   justify-content: center;
@@ -238,3 +241,86 @@ footer {
 
 /* fin pagina clientes*/
 
+
+
+@media screen and (max-width: 480px) {
+
+  .boreal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-image: linear-gradient(to left, rgb(129, 43, 209), rgb(141, 22, 28));
+  }
+
+  .cuerpo {
+    background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/paraoee\ \(2\).jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .imgoee {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+    align-items: center;
+    background-color: rgb(216, 240, 185);
+  }
+
+  header img {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-content: space-around;
+   
+      background-image: linear-gradient(to right, rgb(204, 243, 210), rgb(92, 141, 92));
+
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 400px;
+    background-image: linear-gradient(to right, rgb(13, 190, 43), rgb(112, 145, 117));
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;}
+
+/* se aplica para la pagina de clientes*/
+
+.logcli {
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-around;
+  
+
+}
+.logosclientes {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-image: url(../imagenes1/paraoee\ \(2\).jpg);
+  height: 2000px;}
+
+  .logosclientes_parrafo {
+    display: flex;
+    background-color: rgb(63, 59, 59);
+    color: white;
+    justify-content: center;
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+  
+  }
+
+}
