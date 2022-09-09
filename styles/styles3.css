@@ -195,6 +195,29 @@ footer {
 
 /* pagina clientes*/
 
+.gridcli {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "logosclientes"
+    "footer"
+  ;
+  grid-template-rows: 100px  auto 100px 100px;
+}
+
+header {
+  grid-area: header;
+}
+
+.logosclientes{
+  grid-area: logosclientes;
+}
+
+
+footer {
+  grid-area: footer;
+}
+
 .logosclientes {
   display: flex;
   justify-content: space-around;
@@ -202,6 +225,7 @@ footer {
   flex-wrap: nowrap;
   background-image: url(../imagenes1/paraoee\ \(2\).jpg);
   height: 600px;
+  overflow: hidden;
 
 }
 
@@ -225,8 +249,8 @@ footer {
   color: white;
   justify-content: center;
   width: 500px;
-  padding: 20px;
-  border-radius: 20px;
+  padding: 10px;
+  border-radius: 10px;
 
 }
 
