@@ -179,7 +179,7 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(to left, rgb(204, 243, 210), rgb(92, 141, 92));
+  background-image: linear-gradient(to right, rgb(204, 243, 210), rgb(92, 141, 92));
   padding: 10px;
 }
 
@@ -187,3 +187,46 @@ footer{
   display: flex;
   flex-direction: column;
 }
+
+
+/* comienza seccion paginas*/
+
+/* pagina clientes*/
+
+.logosclientes{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-image: url(../imagenes1/paraoee\ \(2\).jpg);
+  height: 600px;
+
+}
+
+.logcli{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.imgcli {
+  width: 200px;
+  height: 200px;
+  border: solid;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.logosclientes_parrafo {
+  display: flex;
+  background-color: rgb(63, 59, 59);
+  color: white;
+   justify-content: center;
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+ 
+}
+
+/* fin pagina clientes*/
+
