@@ -283,6 +283,35 @@ footer {
     background-image: linear-gradient(to right, rgb(13, 190, 43), rgb(112, 145, 117));
     margin: 5px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 10px;}
+
+/* se aplica para la pagina de clientes*/
+
+.logcli {
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-around;
+  
+
+}
+.logosclientes {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-image: url(../imagenes1/paraoee\ \(2\).jpg);
+  height: 2000px;}
+
+  .logosclientes_parrafo {
+    display: flex;
+    background-color: rgb(63, 59, 59);
+    color: white;
+    justify-content: center;
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+  
+  }
 
 }
