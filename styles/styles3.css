@@ -7,7 +7,7 @@
 /*tamaño imagenes*/
 
 .logo img {
-   width: 130px;
+  width: 130px;
   height: auto;
 }
 
@@ -34,6 +34,7 @@ footer img {
 header {
   display: flex;
 }
+
 .logo {
   display: flex;
 }
@@ -49,14 +50,14 @@ header img {
   padding: 10px;
   align-items: center;
   background-image: linear-gradient(to left, rgb(204, 243, 210), rgb(133, 190, 167));
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.navbar-nav{
+.navbar-nav {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
-  width: 600px;
+  width: 500px;
   background-image: linear-gradient(to right, rgb(13, 190, 43), rgb(112, 145, 117));
   margin: 5px;
   padding: 5px;
@@ -87,6 +88,7 @@ header img {
   align-items: flex-end;
   font-size: 20px;
   padding: 30px;
+  height: 1000px;
 }
 
 .titsn {
@@ -216,9 +218,10 @@ footer img:hover {
   border: solid;
   margin: 20px;
   overflow: hidden;
- cursor: grab;
- transition: padding 0.5s;
+  cursor: grab;
+  transition: padding 0.5s;
 }
+
 /* transicion*/
 
 .imgcli:hover {
@@ -240,4 +243,3 @@ footer img:hover {
 }
 
 /* fin pagina clientes*/
-
