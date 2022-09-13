@@ -8,11 +8,10 @@
 
 .logotransp {
   width: 130px;
-  height:100px;
+  height: 100px;
   border: solid;
- padding: 5px;
- margin-right: 10px;
-  background-color: rgb(35, 63, 8);
+  padding: 5px;
+  background-color: rgb(63, 126, 5);
 }
 
 img {
@@ -39,15 +38,20 @@ header {
   display: flex;
 }
 
-.tys {
- display: flex;
-padding-top: 5px;
+.bg-light {
+  background-image: linear-gradient(to left, rgb(204, 243, 210), rgb(133, 190, 167));
+border-radius: 10px;
 }
 
-.titulo{
-display: flex;
-flex-direction:column;
-margin: 10px ;
+.tys {
+  display: flex;
+  padding-top: 5px;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 
 .boreal {
@@ -91,8 +95,8 @@ margin: 10px ;
 /*zona carousel*/
 
 #carouselExampleControls {
-  height: auto;
-  
+  opacity: 75%;
+
 }
 
 .cuerpo {
