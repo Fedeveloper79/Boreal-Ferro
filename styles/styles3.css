@@ -11,13 +11,10 @@
   height: 100px;
   border: solid;
   padding: 5px;
-  background-color: rgb(63, 126, 5);
+  background-color: rgb(61, 75, 48);
 }
 
-img {
-  width: 400px;
-  height: 400px;
-}
+
 
 footer img {
   width: 25px;
@@ -38,20 +35,24 @@ header {
   display: flex;
 }
 
-.bg-light {
-  background-image: linear-gradient(to left, rgb(204, 243, 210), rgb(133, 190, 167));
-border-radius: 10px;
-}
-
 .tys {
   display: flex;
   padding-top: 5px;
+
 }
 
 .titulo {
   display: flex;
   flex-direction: column;
   margin: 10px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 .boreal {
@@ -61,7 +62,7 @@ border-radius: 10px;
   width: 100%;
   padding: 10px;
   align-items: center;
-  background-image: linear-gradient(to left, rgb(204, 243, 210), rgb(133, 190, 167));
+  background-image: linear-gradient(to left, rgb(204, 243, 210), rgb(188, 248, 224));
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -70,7 +71,7 @@ border-radius: 10px;
   list-style: none;
   justify-content: space-evenly;
   width: 500px;
-  background-image: linear-gradient(to left, rgb(48, 109, 59), rgb(190, 245, 198));
+  background-image: linear-gradient(to right, rgb(204, 243, 210), rgb(133, 190, 167));
   margin: 5px;
   padding: 5px;
   border-radius: 10px;
@@ -78,7 +79,7 @@ border-radius: 10px;
 
 .nav-link {
   background-color: rgb(204, 211, 208);
-  color: rgb(76, 166, 245);
+  color: rgb(3, 74, 136);
   padding: 5px;
   border-radius: 5px;
   transition: padding 0.5s;
@@ -103,25 +104,16 @@ border-radius: 10px;
   background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/paraoee\ \(2\).jpg);
   background-size: 1700px;
   display: flex;
-  justify-content: space-evenly;
   align-items: flex-end;
   font-size: 20px;
   padding: 30px;
   height: 600px;
 }
 
-.titsn {
-  display: flex;
-  text-align: center;
-  padding: 5px;
-  margin: 5px;
+.card-body {
+  background-color: rgba(223, 219, 219, 0.952);
 }
 
-.cuer {
-  background-color: rgba(150, 146, 146, 0.363);
-  width: 400px;
-  border-radius: 10px;
-}
 
 
 
