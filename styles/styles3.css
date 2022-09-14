@@ -122,6 +122,7 @@ h2 {
 
 .card-body {
   background-color: rgba(223, 219, 219, 0.952);
+
 }
 
 .card {
@@ -129,18 +130,13 @@ h2 {
 }
 
 .card:hover {
-  opacity: 75%;
-   width: 400px;
+  opacity: 90%;
+  width: 400px;
   height: 420px;
   border-radius: solid 5px;
-  color: rgb(117, 8, 8);
-  
+  color: rgb(235, 13, 13);
+
 }
-
-
-
-
-
 
 /* fin de zona cuerpo*/
 
@@ -154,6 +150,15 @@ h2 {
 }
 
 .tit {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 40px;
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tit2 {
   display: flex;
   justify-content: center;
   margin: 20px;
@@ -198,10 +203,10 @@ h3 {
 
 footer {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
- background-color: black;
- color: white;
+  background-color: black;
+  color: white;
   padding: 10px;
   height: auto;
 }
@@ -209,7 +214,7 @@ footer {
 .redsos {
   display: flex;
   margin: 5px;
-   
+
 }
 
 span {
@@ -229,6 +234,8 @@ footer img:hover {
 
 
 /* comienza seccion paginas*/
+
+
 
 /* pagina clientes*/
 
