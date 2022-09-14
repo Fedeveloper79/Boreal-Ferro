@@ -239,23 +239,18 @@ footer img:hover {
 
 /* pagina clientes*/
 
-
-
 .logosclientes {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   flex-wrap: nowrap;
   background-image: url(../imagenes1/paraoee\ \(2\).jpg);
-  height: 600px;
-  overflow: hidden;
-
+   overflow: hidden;
 }
 
 .logcli {
   display: flex;
   justify-content: space-around;
-
 }
 
 .imgcli {
