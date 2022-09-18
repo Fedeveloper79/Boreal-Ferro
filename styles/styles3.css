@@ -126,16 +126,15 @@ h2 {
 }
 
 .card {
-  transition: 2s;
+
+  transition: scale 2s;
 }
 
 .card:hover {
   opacity: 90%;
-  width: 400px;
-  height: 420px;
+ scale: 0.8;
   border-radius: solid 5px;
   color: rgb(235, 13, 13);
-
 }
 
 /* fin de zona cuerpo*/
