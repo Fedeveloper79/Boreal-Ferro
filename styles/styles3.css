@@ -203,7 +203,7 @@ h3 {
 
 footer {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   color: white;
@@ -245,7 +245,7 @@ footer img:hover {
   flex-direction: column;
   flex-wrap: nowrap;
   background-image: url(../imagenes1/paraoee\ \(2\).jpg);
-   overflow: hidden;
+  overflow: hidden;
 }
 
 .logcli {
@@ -261,6 +261,10 @@ footer img:hover {
   overflow: hidden;
   cursor: grab;
   transition: padding 0.5s;
+  transition: height 1s;
+  transition: width 2s;
+
+
 }
 
 /* transicion*/
@@ -300,4 +304,11 @@ footer img:hover {
   font-size: 40px;
   color: blue;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* pagina contacto*/
+
+.formulariocontacto {
+  height: 500px;
+  background-image: url(../imagenes1/paraoee\ \(2\).jpg);
 }

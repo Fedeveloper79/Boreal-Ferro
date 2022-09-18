@@ -49,79 +49,89 @@
     </section>
   </section>
   <!-- fin de la seccion -->
+
+
   <main class="formulariocontacto">
 
     <form>
-      <fieldset class="fc1">
-        <legend>Datos personales</legend>
-        <label for="nombre">Ingresa tu nombre</label>
-        <input id="nombre" type="text" placeholder="Ingresa tu nombre">
+      <section Class="row">
 
-        <label for="apellido">Ingresa tu apellido</label>
+        <!--inicio de columna-->
+        <section class="col-sm-12 col-md-12 col-lg-4">
 
-        <input id="apellido" type="text">
+          <fieldset class="fc1">
+            <legend>Datos personales</legend>
+            <label for="nombre">Ingresa tu nombre</label>
+            <input id="nombre" type="text">
+            <label for="apellido">Ingresa tu apellido</label>
+            <input id="apellido" type="text">
+            <label for="documento">Ingresa tu DNI</label>
+            <input id="documento" type="number">
+            <label for="email">Ingresa tu email</label>
+            <input id="email" type="email">
+          </fieldset>
+          <!--fin de columna-->
+        </section>
 
-        <label for="documento">Ingresa tu DNI</label>
+        <!--inicio de columna-->
+        <section class="col-sm-12 col-md-12 col-lg-4">
 
-        <input id="documento" type="number">
+          <fieldset>
+            <legend>Otros datos</legend>
+            <label for="pais">Selecciona tu ciudad</label>
+            <select>
+              <option>Neuquen</option>
+              <option>Centenario</option>
+              <option>Plottier</option>
+              <option>Añelo</option>
+              <option>Cipolleti</option>
+              <option>Fernandez Oro</option>
+              <option>Roca</option>
+              <option>Otro</option>
+            </select>
 
-        <label for="email">Ingresa tu email</label>
-
-        <input id="email" type="email">
-      </fieldset>
-
-
-      <fieldset>
-        <legend>Otros datos</legend>
-        <label for="pais">Selecciona tu ciudad</label>
-        <select>
-          <option>Neuquen</option>
-          <option>Centenario</option>
-          <option>Plottier</option>
-          <option>Añelo</option>
-          <option>Cipolleti</option>
-          <option>Fernandez Oro</option>
-          <option>Roca</option>
-          <option>Otro</option>
-        </select>
-
-        <p> si selecciono otro por favor detallelo</p>
-        <textarea></textarea>
-
-
-        <label>Acepto los terminos y condiciones</label>
-        <input type="checkbox">
-
-        <label>Deseo recibir informacion por mail</label>
-        <input type="checkbox" checked>
-
-        <label for="">como se entero de nosotros</label>
-
-        <label for="">instagram</label>
-        <input name="radio" type="radio">
-        <label for="">facebook</label>
-        <input name="radio" type="radio">
-        <label for="">twitter</label>
-        <input name="radio" type="radio">
+            <p> si selecciono otro por favor detallelo</p>
+            <textarea></textarea>
 
 
-        <textarea></textarea>
+            <label>Acepto los terminos y condiciones</label>
+            <input type="checkbox">
 
-      </fieldset>
-      <fieldset>
-        <legend>Enviar info</legend>
-        <input type="submit" value="Aceptar">
-        <input type="reset" value="Cancelar">
-        <input type="button" value="Mas info">
-      </fieldset>
+            <label>Deseo recibir informacion por mail</label>
+            <input type="checkbox" checked>
+
+            <label for="">como se entero de nosotros</label>
+
+            <label for="">instagram</label>
+            <input name="radio" type="radio">
+            <label for="">facebook</label>
+            <input name="radio" type="radio">
+            <label for="">twitter</label>
+            <input name="radio" type="radio">
+            <!--fin de columna-->
+        </section>
+
+        <!--inicio de columna-->
+        <section class="col-sm-12 col-md-12 col-lg-4">
+          <textarea></textarea>
+
+          </fieldset>
+
+          <legend>Enviar info</legend>
+          <input type="submit" value="Aceptar">
+          <input type="reset" value="Cancelar">
+          <input type="button" value="Mas info">
+          </fieldset>
+        </section>
     </form>
+    <!--fin de columna-->
+    </section>
   </main>
 
   <!-- Seccion Footer -->
   <footer>
 
     <div class="redsos">
-
       <section class="row">
         <section class="col-sm-12 col-md-6 col-lg-4">
           <a href="https://www.instagram.com/" target="_blank"><img src="../imagenes1/logoinsta.png" alt="instagram">
