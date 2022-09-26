@@ -180,7 +180,7 @@ footer img:hover {
 }
 
 .card {
-  transition: scale, background-color, color 2s;
+  transition: scale, 2s;
 }
 .card:hover {
   opacity: 90%;

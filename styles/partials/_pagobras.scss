@@ -4,11 +4,12 @@
     margin: 20px;
     font-size: 40px;
     color: blue;
+
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card {
-    transition: scale, background-color, color 2s;
+    transition: scale,  2s;
 
     &:hover {
         opacity: 90%;
