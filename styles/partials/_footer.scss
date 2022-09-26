@@ -1,31 +1,31 @@
 footer {
+
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: auto;
+}
+
+.redsos {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  }
+
+  .donde {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    height: auto;
+    
+    justify-content: flex-end;
   }
-  
-  .redsos {
-    display: flex;
-    margin: 5px;
-    background-color: black;
-  
-  }
-  
-  span {
-    margin: 3px;
-    background-color: rgb(209, 203, 203);
-    border-radius: 4px;
-  
-  }
-  
-  /*transicion footer*/
-  
-  footer img:hover {
-    padding: 1px;
-    width: 40px;
-    height: 40px;
-  }
+
+
+
+/*transicion footer*/
+
+footer img:hover {
+  padding: 1px;
+  width: 40px;
+  height: 40px;
+}
