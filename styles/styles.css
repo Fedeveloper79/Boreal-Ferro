@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/*tamaño imagenes*/
+.logotransp {
+  width: 130px;
+  height: 100px;
+  border: solid;
+  padding: 5px;
+  background-color: rgb(61, 75, 48);
+  transform: padding 0.3s;
+}
+
+.logotransp:hover {
+  background-color: rgb(6, 126, 126);
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.carr {
+  height: 800px;
+  width: 100%;
+}
+
+.ubic {
+  width: 130px;
+  height: 60px;
+}
+
+/* fin seccion tamaño imagenes*/
+/* zona trabajo header en index*/
+header {
+  display: flex;
+}
+header .boreal {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  background-image: linear-gradient(to left, rgb(204, 243, 210), rgb(188, 248, 224));
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header .boreal .tys {
+  display: flex;
+  padding-top: 5px;
+}
+header .boreal .tys .titulo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+header .boreal .tys .titulo h1 {
+  font-size: 30px;
+}
+header .boreal .tys .titulo h2 {
+  font-size: 30px;
+}
+header .boreal .navbar-nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 500px;
+  background-image: linear-gradient(to right, rgb(204, 243, 210), rgb(133, 190, 167));
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+header .boreal .navbar-nav .nav-link {
+  background-color: rgb(204, 211, 208);
+  color: rgb(3, 74, 136);
+  padding: 5px;
+  border-radius: 5px;
+  transition: padding 0.5s;
+}
+header .boreal .navbar-nav .nav-link:hover {
+  padding: 10px;
+  background-color: rgb(239, 245, 238);
+  color: rgb(197, 21, 21);
+}
+
+/* fin zona de trabajo header */
+/* zona carrousel */
+.carr {
+  opacity: 0.7;
+}
+
+/* zona detalles*/
+.cuerpo {
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.9), rgba(218, 219, 224, 0)), url(../imagenes1/paraoee\ \(2\).jpg);
+  background-size: 1700px;
+  display: flex;
+  align-items: flex-end;
+  font-size: 20px;
+  padding: 30px;
+  height: 600px;
+}
+.cuerpo .card {
+  transition: scale 2s;
+}
+.cuerpo .card:hover {
+  opacity: 90%;
+  scale: 1.2;
+  border-radius: solid 5px;
+  color: rgb(230, 13, 13);
+  background-color: black;
+}
+.cuerpo .card .card-body {
+  background-color: rgba(223, 219, 219, 0.952);
+}
+
+/* zona obras en ejecucion*/
+.oee {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(195, 212, 198, 0.555);
+}
+.oee .tit {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 40px;
+  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.oee .card {
+  transition: scale 2s;
+}
+.oee .card:hover {
+  opacity: 90%;
+  scale: 1.2;
+  border-radius: solid 5px;
+  color: rgb(230, 13, 13);
+  background-color: black;
+}
+
+h3 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  color: beige;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.tit2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 40px;
+  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

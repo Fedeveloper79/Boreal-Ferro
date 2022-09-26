@@ -1,0 +1,70 @@
+/* zona carrousel */
+
+.carr {
+    opacity: 0.7;
+}
+
+
+/* zona detalles*/
+@at-root .cuerpo {
+    background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/paraoee\ \(2\).jpg);
+    background-size: 1700px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    padding: 30px;
+    height: 600px;
+
+    .card {
+
+        transition: scale 2s;
+
+        &:hover {
+            opacity: 90%;
+            scale: 1.2;
+            border-radius: solid 5px;
+            color: rgb(230, 13, 13);
+            background-color: black;
+
+        }
+
+        .card-body {
+            background-color: rgba(223, 219, 219, 0.952);
+
+
+        }
+    }
+}
+
+/* zona obras en ejecucion*/
+@at-root .oee {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(195, 212, 198, 0.555);
+
+    .tit {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        font-size: 40px;
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .card {
+
+        transition: scale 2s;
+
+        &:hover {
+            opacity: 90%;
+            scale: 1.2;
+            border-radius: solid 5px;
+            color: rgb(230, 13, 13);
+            background-color: black;
+
+        }
+    }
+}
+
+
+

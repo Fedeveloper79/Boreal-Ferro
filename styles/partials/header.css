@@ -1,0 +1,57 @@
+/* zona trabajo header en index*/
+header {
+  display: flex;
+}
+header .tys {
+  display: flex;
+  padding-top: 5px;
+}
+header .tys .titulo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+header .tys .titulo h1 {
+  font-size: 30px;
+}
+header .tys .titulo h2 {
+  font-size: 30px;
+}
+
+.boreal {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  background-image: linear-gradient(to left, rgb(204, 243, 210), rgb(188, 248, 224));
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 500px;
+  background-image: linear-gradient(to right, rgb(204, 243, 210), rgb(133, 190, 167));
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.nav-link {
+  background-color: rgb(204, 211, 208);
+  color: rgb(3, 74, 136);
+  padding: 5px;
+  border-radius: 5px;
+  transition: padding 0.5s;
+}
+
+.nav-link:hover {
+  padding: 10px;
+  background-color: rgb(239, 245, 238);
+  color: rgb(197, 21, 21);
+}
+
+/* fin zona de trabajo header *//*# sourceMappingURL=header.css.map */

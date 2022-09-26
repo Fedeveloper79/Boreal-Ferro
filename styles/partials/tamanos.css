@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*tamaño imagenes*/
+.logotransp {
+  width: 130px;
+  height: 100px;
+  border: solid;
+  padding: 5px;
+  background-color: rgb(61, 75, 48);
+  transform: padding 0.3s;
+}
+
+.logotransp:hover {
+  background-color: rgb(6, 126, 126);
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.carr {
+  height: 800px;
+  width: 100%;
+}
+
+.ubic {
+  width: 130px;
+  height: 60px;
+}
+
+/* fin seccion tamaño imagenes*//*# sourceMappingURL=tamanos.css.map */
