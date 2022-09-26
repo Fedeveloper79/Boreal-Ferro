@@ -168,4 +168,82 @@ footer img:hover {
   padding: 1px;
   width: 40px;
   height: 40px;
+}
+
+.tit2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 40px;
+  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card {
+  transition: scale, background-color, color 2s;
+}
+.card:hover {
+  opacity: 90%;
+  scale: 0.85;
+  border-radius: solid 55px;
+  background-color: rgb(10, 10, 10);
+  color: rgb(241, 238, 238);
+}
+
+.carousel-caption {
+  background-color: aqua;
+  color: black;
+  border-radius: 15px;
+  transition: background-color, scale 3s;
+}
+.carousel-caption:hover {
+  background-color: rgb(129, 238, 129);
+  scale: 1.5;
+}
+
+.servicios {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 40px;
+  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.logosclientes {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-image: url(../imagenes1/paraoee\ \(2\).jpg);
+  overflow: hidden;
+}
+.logosclientes .logosclientes_parrafo {
+  display: flex;
+  background-color: rgb(63, 59, 59);
+  color: white;
+  justify-content: center;
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.logosclientes .imgcli {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  overflow: hidden;
+  cursor: -webkit-grab;
+  cursor: grab;
+  transition: height, width, padding 2s;
+}
+.logosclientes .imgcli:hover {
+  border: solid;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.formulariocontacto {
+  height: 500px;
+  background-image: url(../imagenes1/paraoee\ \(2\).jpg);
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,22 @@
+.carousel-caption {
+  background-color: aqua;
+  color: black;
+  border-radius: 15px;
+  transition: background-color, scale 3s;
+
+  &:hover {
+    background-color: rgb(129, 238, 129);
+    scale: 1.5;
+  }
+}
+
+.servicios {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 40px;
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+
+}
