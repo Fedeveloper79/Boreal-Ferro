@@ -138,32 +138,14 @@ header .boreal .navbar-nav .nav-link:hover {
   background-color: black;
 }
 
-h3 {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  padding: 10px;
-  color: beige;
-  background-color: black;
-  border-radius: 10px;
-}
-
-.tit2 {
+.publi {
+  background-color: rgba(195, 212, 198, 0.555);
   display: flex;
   justify-content: center;
-  margin: 20px;
-  font-size: 40px;
-  color: blue;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  border: solid 5px;
 }
 
-
-
-
-
-
 footer {
-
   display: flex;
   align-items: center;
   background-color: black;
@@ -171,34 +153,19 @@ footer {
   padding: 10px;
   height: auto;
 }
-
-.redsos {
+footer .redsos {
   display: flex;
   flex-direction: column;
   margin: 5px;
-  }
-
-  .donde {
-    display: flex;
-    
-    justify-content: flex-end;
-  }
-
-
+}
+footer .donde {
+  display: flex;
+  justify-content: flex-end;
+}
 
 /*transicion footer*/
-
 footer img:hover {
   padding: 1px;
   width: 40px;
   height: 40px;
-}
-
-
-/*publicidad*/
-
-.publi {
-  display: flex;
-  justify-content: center;
-  background-color: rgba(195, 212, 198, 0.555);
-}
+}/*# sourceMappingURL=styles.css.map */
