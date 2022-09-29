@@ -1,54 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>borealobrasyservicios</title>
 </head>
 
 
-<body class="container-fluid">
+<body >
 
 
     <!-- El Header es Simple, tiene el logo de la empresa y el menu-->
-    <section Class="row">
-        <section class="col">
-            <header>
-                <div class="boreal">
-                    <div class="tys">
-                        <img class="logotransp" class="img-fluid" src="./imagenes1/logos/borel2-03.png">
-                        <div class="titulo">
-                            <h1><strong>BOREAL </strong></h1>
-                            <h2> Obras y Servicios</h2>
-                        </div>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(33,97,140)">
+            <div class="container-fluid">
+                <div class="d-flex flex-grow-1">
+                    <span class="w-100 d-lg-none d-block"> </span>
+                    <a href="#" class="navbar-brand">Boreal Obras y Servicios</a>
+                    <div class="w-100 text-right">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#minavbarboreal">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                     </div>
-                    <nav class="navbar navbar-expand-lg ">
-                        <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                <div class="navbar-nav">
-                                    <a class="nav-link" href="#"><b>Inicio</b></a>
-                                    <a class="nav-link" href="../boreal - ferro/pages/obras.html"><b>Obras</b></a>
-                                    <a class="nav-link" href="./pages/servicios.html"><b>Servicios</b></a>
-                                    <a class="nav-link" href="./pages/clientes.html"><b>Clientes</b></a>
-                                    <a class="nav-link" href="./pages/contacto.html"><b>Contacto</b></a>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
                 </div>
-            </header>
-        </section>
-    </section>
+                <div class="collapse navbar-collapse flex-grow-1 text-right" id="#minavbarboreal">
+                    <ul class="navbar-nav ms-auto flex-nowrap">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">
+                                <img src="./imagenes1/iconos header/house.svg" alt="Bootstrap" width="17" height="17">
+                                Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Obras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+
     <!-- fin de la seccion -->
 
 
@@ -234,13 +240,13 @@
         <footer>
             <section class="col-sm-12 col-md-6 col-lg-4">
                 <div class="redsos">
-                    <a href="https://www.instagram.com/" target="_blank"><img src="./imagenes1/logoinsta.png"
-                            alt="instagram"> </a>
+                    <a href="https://www.instagram.com/" target="_blank"><img
+                            src="./imagenes1/iconos redes/instagram.png" alt="instagram"> </a>
 
-                    <a href="https://www.facebook.com/" target="_blank"><img src="./imagenes1/logoface.jpg"
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./imagenes1/iconos redes/facebook.png"
                             alt="facebook"></a>
 
-                    <a href="https://twitter.com/?lang=es" target="_blank"><img src="./imagenes1/logotwiter.jpg"
+                    <a href="https://twitter.com/?lang=es" target="_blank"><img src="./imagenes1/iconos redes/"
                             alt="twitter"> </a>
                 </div>
             </section>
@@ -272,9 +278,8 @@
     <!-- fin de la seccion -->
 
     <!-- link de java para la maquetacion con bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 
