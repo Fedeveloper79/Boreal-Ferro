@@ -1,22 +1,39 @@
-.carousel-caption {
-  background-color: aqua;
-  color: black;
-  border-radius: 15px;
-  transition: background-color, scale 3s;
+.servi {
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/fondo1.jpg);
 
-  &:hover {
-    background-color: rgb(129, 238, 129);
-    scale: 1.5;
-  }
+.carousel-inner {
+  border-radius: 20px;
+  height: 500p;
 }
 
-.servicios {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-  font-size: 40px;
-  color: blue;
-  font-family: Georgia, 'Times New Roman', Times, serif;
- 
+  .carousel-caption {
+    background-color: rgb(178, 247, 247);
+    opacity: 0.3;
+    color: black;
+    border-radius: 15px;
+    transition: background-color, scale 3s;
+
+
+
+
+    &:hover {
+      background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/obra1.jpg);
+      scale: 1.5;
+      opacity: 1;
+      
+    }
+  }
+
+  .servicios {
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+    margin: 20px;
+    font-size: 40px;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+  }
 
 }

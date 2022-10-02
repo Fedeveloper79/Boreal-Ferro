@@ -1,21 +1,26 @@
-.tit2 {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    font-size: 40px;
-    color: blue;
+.obras {
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+    background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/fondo1.jpg);
 
-.card {
-    transition: scale,  2s;
+    .tit2 {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        font-size: 40px;
+        color: blue;
 
-    &:hover {
-        opacity: 90%;
-        scale: 0.85;
-        border-radius: solid 55px;
-        background-color: rgb(10, 10, 10);
-        color: rgb(241, 238, 238);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .card {
+        transition: scale, 2s;
+
+        &:hover {
+            opacity: 90%;
+            scale: 0.85;
+            border-radius: solid 55px;
+            background-color: rgb(10, 10, 10);
+            color: rgb(241, 238, 238);
+        }
     }
 }

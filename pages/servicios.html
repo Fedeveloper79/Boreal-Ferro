@@ -5,47 +5,50 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../styles/styles.css">
   <title>Document</title>
 </head>
 
-<body class="container-fluid">
+<body class="servi">
   <!-- El Header es Simple, tiene el logo de la empresa y el menu-->
-  <section Class="row">
-    <section class="col">
-      <header>
-        <div class="boreal">
-          <div class="tys"><a href="../index.html">
-              <img class="logotransp" class="img-fluid" src="../imagenes1/logos/borel2-03.png"></a>
-            <div class="titulo">
-              <h1><strong>BOREAL </strong></h1>
-              <h2> Obras y Servicios</h2>
-            </div>
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(33,97,140)">
+      <div class="container-fluid">
+
+        <a href="../index.html"><img class="logo" src="../imagenes1/logos/My project-1 (1).png" alt=""></a>
+        <div class="d-flex flex-grow-1">
+          <span class="w-100 d-lg-none d-block"> </span>
+          <a href="#" class="navbar-brand">Boreal <p class="subt">Obras y Servicios</p>
+          </a>
+          <div class="w-100 text-right">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#minavbarboreal">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
-          <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" href="../index.html"><b>Inicio</b></a>
-                  <a class="nav-link" href="./obras.html"><b>Obras</b></a>
-                  <a class="nav-link" href="#"><b>Servicios</b></a>
-                  <a class="nav-link" href="./clientes.html"><b>Clientes</b></a>
-                  <a class="nav-link" href="./contacto.html"><b>Contact0</b></a>
-                </div>
-              </div>
-            </div>
-          </nav>
         </div>
-      </header>
-    </section>
-  </section>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="minavbarboreal">
+          <ul class="navbar-nav ms-auto flex-nowrap">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link active"> Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="../pages/obras.html" class="nav-link ">Obras</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link ">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a href="../pages/clientes.html" class="nav-link ">clientes</a>
+            </li>
+            <li class="nav-item">
+              <a href="../pages/contacto.html" class="nav-link ">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
   <!-- fin de la seccion -->
 
   <!-- comienzo del main -->
@@ -60,103 +63,107 @@
       </section>
     </section>
 
-<!-- el carrusel es responsive desde bootstrap-->
+    <!-- el carrusel es responsive desde bootstrap-->
+    <div class="container ">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item  active ">
+            <img src="../imagenes1/carouselservicios/compramat.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>COMPRA DE MATERIALES</h5>
+              <p class="servicios">Realizamos la gestion integral de compra y logistica de materiales.</p>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="../imagenes1/carouselservicios/direccionygerenciamiento.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>DISEÑO E INGENIERIA</h5>
+              <p class="servicios">Diseñamos y calculamos tu proyecto desde el comienzo</p>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="../imagenes1/carouselservicios/planificacionydiseño.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>OBRAS LLAVE EN MANO</h5>
+              <p class="servicios">Gestionamos de manera integral nuestros proyectos o gerenciamos el tutyo</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../imagenes1/carouselservicios/compramat.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>COMPRA DE MATERIALES</h5>
-            <p class="servicios">Realizamos la gestion integral de compra y logistica de materiales.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="../imagenes1/carouselservicios/direccionygerenciamiento.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>DISEÑO E INGENIERIA</h5>
-            <p class="servicios">Diseñamos y calculamos tu proyecto desde el comienzo</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="../imagenes1/carouselservicios/planificacionydiseño.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>OBRAS LLAVE EN MANO</h5>
-            <p class="servicios">Gestionamos de manera integral nuestros proyectos o gerenciamos el tutyo</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-
-    
   </main>
   <!-- fin de la seccion -->
 
-  <!-- zona footer-->
-  <section class="row">
 
-    <footer>
-      <section class="col-sm-12 col-md-6 col-lg-4">
-        <div class="redsos">
-          <a href="https://www.instagram.com/" target="_blank"><img src="../imagenes1/logoinsta.png" alt="instagram">
-          </a>
+  <!-- en el footer tenemos los links hacia las redes sociales de la empresa, info basica de contacto y ubicacion de las oficinas-->
+  <footer>
+    <div class="row ">
 
-          <a href="https://www.facebook.com/" target="_blank"><img src="../imagenes1/logoface.jpg" alt="facebook"></a>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="container-fluid py-3">
 
-          <a href="https://twitter.com/?lang=es" target="_blank"><img src="../imagenes1/logotwiter.jpg" alt="twitter">
-          </a>
+          <div class="reds">
+            <a href="https://www.instagram.com/" target="_blank"><img src="../imagenes1/iconos redes/instagram.png"
+                alt="Instagram" width="25" height="25">
+              Instagram</a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../imagenes1/iconos redes/facebook.png"
+                alt="Instagram" width="25" height="25">
+              facebook</a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../imagenes1/iconos redes/twitter.png"
+                alt="twitter" width="25" height="25">
+              Twitter</a>
+          </div>
         </div>
-      </section>
 
+      </div>
 
-      <section class="col-sm-12 col-md-6 col-lg-4">
-        <div class="infocon">
-          <p><b>INFORMACION DE CONTACTO</b></p>
-          <p> Tel : +54 9 299 5362712</p>
-          <p> Correo: comercial@borealoys.com.ar</p>
+      <div class="col-sm-12 col-md-12 col-lg-6  py-3">
+        <div class="infoc">
+          <p>Info de contacto</p><br>
+          <E-mail>E-mail : Comercial@borealoys.com.ar</E-mail>
+          <p>Cel:299-5362712</p>
+          <p>Direccion: Islas Malvinas 155 - EP - Neuquen</p>
         </div>
-      </section>
+
+      </div>
 
 
+      <div class="col-sm-12 col-md-12 col-lg-3">
 
-      <section class="col-sm-12 col-md-6 col-lg-4">
         <div class="donde">
           <p> <a
               href="https://www.google.com.ar/maps/place/Islas+Malvinas+155,+Q8300ARN+Neuqu%C3%A9n/@-38.9476856,-68.0588255,17z/data=!3m1!4b1!4m5!3m4!1s0x960a332ae634a3b3:0x461e8f538d7c0957!8m2!3d-38.9476898!4d-68.0566368?hl=es-419"
-              target="_blank"><b>DONDE ESTAMOS</b></a></p>
-          <img class="ubic" src="../imagenes1/ubicacion.png" alt="obra 1">
+              target="_blank"><b>VISITANOS</b></a></p>
+          <img class="w-250px  h-100px" src="../imagenes1/ubicacion/ubicacion.png" alt="Ubicacion" width="250" height="120">
         </div>
 
-      </section>
-    </footer>
-
-  </section>
-
-
+      </div>
+    </div>
+  </footer>
   <!-- fin de la seccion -->
 
   <!-- link de java para la maquetacion con bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -1,31 +1,18 @@
 footer {
 
-  display: flex;
-  align-items: center;
   background-color: black;
   color: white;
-  padding: 10px;
-  height: auto;
 
-  
-.redsos {
+   
+img {
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  transition: all 1.5s;
+
+  &:hover {
+    transform: scale(1.5);
   }
-
-  .donde {
-    display: flex;
-    
-    justify-content: flex-end;
-  }
-
-
 }
-/*transicion footer*/
-
-footer img:hover {
-  padding: 1px;
-  width: 40px;
-  height: 40px;
+  
+  
 }

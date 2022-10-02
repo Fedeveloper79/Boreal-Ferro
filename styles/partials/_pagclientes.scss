@@ -1,34 +1,19 @@
-.logosclientes {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  background-image: url(../imagenes1/paraoee\ \(2\).jpg);
-  overflow: hidden;
+.clientes {
+
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/fondo1.jpg);
+.card {
+  opacity: 0.8;
+
+}
 
   .logosclientes_parrafo {
     display: flex;
-    background-color: rgb(63, 59, 59);
-    color: white;
+    display: flex;
     justify-content: center;
-    width: 500px;
-    padding: 10px;
-    border-radius: 10px;
-  }
-
-  .imgcli {
-    width: 200px;
-    height: 200px;
     margin: 20px;
-    overflow: hidden;
-    cursor: grab;
-    transition: height, width, padding 2s;
+    font-size: 40px;
+    color: blue;
 
-    &:hover {
-      border: solid;
-      padding: 10px;
-      width: 300px;
-      height: 300px;
-    }
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }

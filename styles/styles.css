@@ -13,20 +13,13 @@
   background-color: rgb(6, 126, 126);
 }
 
-footer img {
-  width: 25px;
-  height: 25px;
-  border-radius: 4px;
-  margin: 5px;
-}
-
 .carr {
-  height: 800px;
+  height: auto;
   width: 100%;
 }
 
 .ubic {
-  width: 130px;
+  width: 100px;
   height: 60px;
 }
 
@@ -39,145 +32,119 @@ footer img {
 
 /* fin seccion tamaño imagenes*/
 /* zona trabajo header en index*/
-header {
-  display: flex;
+.navbar {
+  background-color: rgb(33, 97, 140);
 }
-header .boreal {
-  display: flex;
-  justify-content: space-between;
-  height: 100px;
-  width: 100%;
-  padding: 10px;
-  align-items: center;
-  background-image: linear-gradient(to left, rgb(204, 243, 210), rgb(188, 248, 224));
-  font-family: Georgia, "Times New Roman", Times, serif;
+.navbar .logo {
+  transition: all 2s;
 }
-header .boreal .tys {
-  display: flex;
-  padding-top: 5px;
+.navbar .logo:hover {
+  transform: scale(1.3);
 }
-header .boreal .tys .titulo {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
+.navbar .navbar-brand {
+  font-size: 40px;
 }
-header .boreal .tys .titulo h1 {
-  font-size: 30px;
+.navbar .navbar-brand p {
+  font-size: 22px;
 }
-header .boreal .tys .titulo h2 {
-  font-size: 30px;
+.navbar .nav-item {
+  font-size: 20px;
+  transition: all 1s;
 }
-header .boreal .navbar-nav {
-  display: flex;
-  list-style: none;
-  justify-content: space-evenly;
-  width: 500px;
-  background-image: linear-gradient(to right, rgb(204, 243, 210), rgb(133, 190, 167));
-  margin: 5px;
-  padding: 5px;
-  border-radius: 10px;
-}
-header .boreal .navbar-nav .nav-link {
-  background-color: rgb(204, 211, 208);
-  color: rgb(3, 74, 136);
-  padding: 5px;
-  border-radius: 5px;
-  transition: padding 0.5s;
-}
-header .boreal .navbar-nav .nav-link:hover {
-  padding: 10px;
-  background-color: rgb(239, 245, 238);
-  color: rgb(197, 21, 21);
+.navbar .nav-item:hover {
+  transform: scale(1.2);
+  color: white;
 }
 
 /* fin zona de trabajo header */
 /* zona carrousel */
-.carr {
-  opacity: 0.7;
+.index {
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.9), rgba(218, 219, 224, 0)), url(../imagenes1/fondo2.jpg);
+  /* zona obras en ejecucion*/
 }
-
-/* zona detalles*/
+.index .carousel-item {
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  /* zona detalles*/
+}
+.index .carousel-item .carr {
+  opacity: 0.8;
+  border-radius: 20px;
+}
 .cuerpo {
-  background: linear-gradient(to top, rgba(218, 219, 224, 0.9), rgba(218, 219, 224, 0)), url(../imagenes1/paraoee\ \(2\).jpg);
-  background-size: 1700px;
+  background-size: 1400px;
   display: flex;
+  justify-content: center;
   align-items: flex-end;
   font-size: 20px;
   padding: 30px;
-  height: 600px;
+  height: 400px;
 }
 .cuerpo .card {
-  transition: scale 2s;
+  transition: all 2s;
 }
 .cuerpo .card:hover {
-  opacity: 90%;
+  opacity: 1;
   scale: 1.2;
   border-radius: solid 5px;
-  color: rgb(230, 13, 13);
-  background-color: black;
+  color: white;
+  background-color: rgb(5, 54, 100);
 }
-.cuerpo .card .card-body {
-  background-color: rgba(223, 219, 219, 0.952);
+.cuerpo .card .card-body .card-text {
+  color: black;
+  opacity: 1;
+  transition: all 2s;
+}
+.cuerpo .card .card-body .card-text:hover {
+  color: white;
 }
 
-/* zona obras en ejecucion*/
 .oee {
   display: flex;
   flex-direction: column;
-  background-color: rgba(195, 212, 198, 0.555);
 }
 .oee .tit {
   display: flex;
   justify-content: center;
   margin: 20px;
   font-size: 40px;
-  color: blue;
+  color: rgb(3, 3, 34);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .oee .card {
-  transition: scale 2s;
+  transition: all 2s;
 }
 .oee .card:hover {
   opacity: 90%;
   scale: 1.2;
   border-radius: solid 5px;
-  color: rgb(230, 13, 13);
-  background-color: black;
+  color: white;
+  background-color: rgb(11, 8, 190);
 }
-
-.publi {
-  background-color: rgba(195, 212, 198, 0.555);
+.oee .publi {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   border: solid 5px;
 }
 
 footer {
-  display: flex;
-  align-items: center;
   background-color: black;
   color: white;
-  padding: 10px;
-  height: auto;
 }
-footer .redsos {
+footer img {
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  transition: all 1.5s;
 }
-footer .donde {
-  display: flex;
-  justify-content: flex-end;
-}
-
-/*transicion footer*/
 footer img:hover {
-  padding: 1px;
-  width: 40px;
-  height: 40px;
+  transform: scale(1.5);
 }
 
-.tit2 {
+.obras {
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.9), rgba(218, 219, 224, 0)), url(../imagenes1/fondo1.jpg);
+}
+.obras .tit2 {
   display: flex;
   justify-content: center;
   margin: 20px;
@@ -185,11 +152,10 @@ footer img:hover {
   color: blue;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
-.card {
+.obras .card {
   transition: scale, 2s;
 }
-.card:hover {
+.obras .card:hover {
   opacity: 90%;
   scale: 0.85;
   border-radius: solid 55px;
@@ -197,19 +163,28 @@ footer img:hover {
   color: rgb(241, 238, 238);
 }
 
-.carousel-caption {
-  background-color: aqua;
+.servi {
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.9), rgba(218, 219, 224, 0)), url(../imagenes1/fondo1.jpg);
+}
+.servi .carousel-inner {
+  border-radius: 20px;
+  height: 500p;
+}
+.servi .carousel-caption {
+  background-color: rgb(178, 247, 247);
+  opacity: 0.3;
   color: black;
   border-radius: 15px;
   transition: background-color, scale 3s;
 }
-.carousel-caption:hover {
-  background-color: rgb(129, 238, 129);
+.servi .carousel-caption:hover {
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.9), rgba(218, 219, 224, 0)), url(../imagenes1/obra1.jpg);
   scale: 1.5;
+  opacity: 1;
 }
-
-.servicios {
+.servi .servicios {
   display: flex;
+  opacity: 1;
   justify-content: center;
   margin: 20px;
   font-size: 40px;
@@ -217,37 +192,20 @@ footer img:hover {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.logosclientes {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  background-image: url(../imagenes1/paraoee\ \(2\).jpg);
-  overflow: hidden;
+.clientes {
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.9), rgba(218, 219, 224, 0)), url(../imagenes1/fondo1.jpg);
 }
-.logosclientes .logosclientes_parrafo {
+.clientes .card {
+  opacity: 0.8;
+}
+.clientes .logosclientes_parrafo {
   display: flex;
-  background-color: rgb(63, 59, 59);
-  color: white;
+  display: flex;
   justify-content: center;
-  width: 500px;
-  padding: 10px;
-  border-radius: 10px;
-}
-.logosclientes .imgcli {
-  width: 200px;
-  height: 200px;
   margin: 20px;
-  overflow: hidden;
-  cursor: -webkit-grab;
-  cursor: grab;
-  transition: height, width, padding 2s;
-}
-.logosclientes .imgcli:hover {
-  border: solid;
-  padding: 10px;
-  width: 300px;
-  height: 300px;
+  font-size: 40px;
+  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .formulariocontacto {
