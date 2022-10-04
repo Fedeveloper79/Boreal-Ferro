@@ -1,0 +1,10 @@
+@mixin carrserv ($opac, $color) 
+{
+    background-color: rgb(178, 247, 247);
+    opacity: $opac;
+    color: $color;
+    border-radius: 15px;
+    transition: background-color, scale 3s;
+    
+       
+}

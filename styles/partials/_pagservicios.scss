@@ -1,26 +1,19 @@
 .servi {
   background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/fondo1.jpg);
 
-.carousel-inner {
-  border-radius: 20px;
-  height: 500p;
-}
+  .carousel-inner {
+    border-radius: 20px;
+    height: 500p;
+  }
 
   .carousel-caption {
-    background-color: rgb(178, 247, 247);
-    opacity: 0.3;
-    color: black;
-    border-radius: 15px;
-    transition: background-color, scale 3s;
-
-
-
-
+    @include carrserv ($opac: 0.3, $color: black); 
+    
     &:hover {
       background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/obra1.jpg);
       scale: 1.5;
       opacity: 1;
-      
+
     }
   }
 
