@@ -1,0 +1,18 @@
+.clase1{
+    @extend %botonescontacto;
+    color: rgb(13, 14, 14);
+    background-color: chartreuse;
+}
+
+
+.clase2{
+    @extend %botonescontacto;
+    color: rgb(224, 220, 236);
+    background-color: rgb(52, 17, 134);
+}
+
+.clase3{
+    @extend %botonescontacto;
+    color: rgb(68, 5, 5);
+    background-color: rgb(251, 255, 0);
+}

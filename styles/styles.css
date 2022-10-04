@@ -1,4 +1,26 @@
 @charset "UTF-8";
+.clase1 {
+  color: rgb(13, 14, 14);
+  background-color: chartreuse;
+}
+
+.clase2 {
+  color: rgb(224, 220, 236);
+  background-color: rgb(52, 17, 134);
+}
+
+.clase3 {
+  color: rgb(68, 5, 5);
+  background-color: rgb(251, 255, 0);
+}
+
+.clase1, .clase2, .clase3 {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  text-decoration: underline;
+}
+
 /*tamaño imagenes*/
 .logotransp {
   width: 130px;
