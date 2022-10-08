@@ -1,4 +1,32 @@
 .formulariocontacto {
-    height: 500px;
-    background-image: url(../imagenes1/paraoee\ \(2\).jpg);
+  height: 800px;
+  background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/fondo2.jpg);
+
+  .clase1 {
+    margin: 10px;
   }
+
+  .fc1 {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .clase2 {
+    margin: 10px;
+  }
+  .otrosd {
+    display: flex;
+    flex-direction: column;
+    
+    .termycon{
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .clase3 {
+    margin: 10px;
+  }
+}
