@@ -186,7 +186,7 @@ footer img:hover {
 }
 .servi .carousel-caption {
   background-color: rgb(178, 247, 247);
-  opacity: 0.3;
+  opacity: 0.6;
   color: black;
   border-radius: 15px;
   transition: background-color, scale 3s;
@@ -200,7 +200,7 @@ footer img:hover {
   display: flex;
   opacity: 1;
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
   font-size: 40px;
   color: blue;
   font-family: Georgia, "Times New Roman", Times, serif;

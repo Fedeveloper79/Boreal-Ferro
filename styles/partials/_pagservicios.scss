@@ -7,7 +7,7 @@
   }
 
   .carousel-caption {
-    @include carrserv ($opac: 0.3, $color: black); 
+    @include carrserv ($opac: 0.6, $color: black); 
     
     &:hover {
       background: linear-gradient(to top, rgba(218, 219, 224, 0.90), rgba(218, 219, 224, 0.00)), url(../imagenes1/obra1.jpg);
@@ -19,9 +19,9 @@
 
   .servicios {
     display: flex;
-    opacity: 1;
+    opacity:1;
     justify-content: center;
-    margin: 20px;
+    margin: 10px;
     font-size: 40px;
     color: blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
